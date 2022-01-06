@@ -1,0 +1,40 @@
+ /* importing the fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+/* styling starts here!! */
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body{
+   height: 100vh;
+   width: 100vw;
+}
+
+nav{
+   border: 2px solid black;  /* will have to delete it after the website is ready for production*/
+   font-size: 3vh;
+   font-family: Fira Code;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   background-color: dimgray;
+   font-weight: bolder;
+   color: floralwhite;
+   width: 100vw;
+   display: flex;
+}
+
+nav ul {
+   width: 100vw;
+   display: flex;
+   list-style: none;
+   justify-content: center;
+}
+nav ul li{
+   padding-right: 1.5vw;
+   padding-left: 1.5vw;
+   margin-left: 1vw;
+}
+
