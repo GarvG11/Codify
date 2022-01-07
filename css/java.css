@@ -1,0 +1,81 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body{
+   height: 100vh;
+   width: 10vw;
+   background: linear-gradient(to top left, #798a84e8, black);
+}
+
+ul{
+   list-style: none;
+   display: flex;
+   align-items: center;
+}
+
+nav {
+   border: 2px solid black; /* will have to delete it after the website is ready for production*/
+   font-size: 3vh;
+   font-family: Fira Code;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   background-color: dimgray;
+   font-weight: bolder;
+   color: floralwhite;
+   width: 100vw;
+   display: flex;
+ }
+
+ nav ul {
+   width: 100vw;
+   display: flex;
+   list-style: none;
+   justify-content: center;
+ }
+ nav ul li {
+   padding-right: 1.5vw;
+   padding-left: 1.5vw;
+   margin-left: 1vw;
+ }
+ 
+ .nav_anchor{
+   text-decoration: none;
+     color: ghostwhite;
+     border: 2px;
+     border-color: rgba(240, 248, 255, 0);
+     border-radius: 15px;
+ } 
+
+ .nav_anchor :hover{
+   color: rgb(229, 220, 233);
+   border: 2px solid white;
+   border-radius: 15px;
+   background-color: black;
+   border-bottom: 0px !important;
+   border-left: 0px !important;
+   cursor: pointer;
+ } 
+
+ .conatiner{
+    display: flex;
+    align-items: flex-start;
+    width: 70vw;
+    padding-left: 3vw;
+}
+ 
+
+ .toolbar-item button{
+   cursor: pointer !important;
+   color: #e6ff00 !important;
+   border: 3px solid white !important;
+   border-radius: 10px !important;
+   padding: 6px 15px !important;
+ } 
+
+ .problem{
+   font-family: Cascadia Code;
+   color: cadetblue;
+}
+ 
